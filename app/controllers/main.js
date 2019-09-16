@@ -1,6 +1,10 @@
 $(document).ready(function() {
     var danhSachNguoiDung = new DanhSachNguoiDung();
 
+    function themNguoiDung() {
+        console.log('Thêm người dùng');
+    }
+
     getUsers();
 
     $('#btnThemNguoiDung').click(function() {
