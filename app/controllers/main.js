@@ -1,6 +1,10 @@
 $(document).ready(function() {
     var danhSachNguoiDung = new DanhSachNguoiDung();
 
+    function themNguoiDung() {
+        console.log('Them nguoi dung 2');
+    }
+
     getUsers();
 
     $('#btnThemNguoiDung').click(function() {
