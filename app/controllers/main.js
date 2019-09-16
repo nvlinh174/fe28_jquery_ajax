@@ -2,7 +2,7 @@ $(document).ready(function() {
     var danhSachNguoiDung = new DanhSachNguoiDung();
 
     function themNguoiDung() {
-        console.log('Thêm người dùng');
+        console.log('Them nguoi dung 2');
     }
 
     getUsers();
